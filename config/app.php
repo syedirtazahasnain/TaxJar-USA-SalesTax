@@ -84,6 +84,12 @@ return [
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
+    'tax_jar_api' => env('TAXJAR_API_KEY',''),
+
+    'tax_jar_sandbox_url' => env('TAXJAR_SANDBOX_URL',''),
+
+    'tax_jar_production_url' => env('TAXJAR_PRODUCTION_URL',''),
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
